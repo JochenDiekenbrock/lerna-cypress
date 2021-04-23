@@ -4,6 +4,7 @@ import App from "./App";
 
 it('App', () => {
     mount(<App/>)
-    cy.get('button').contains('Test button').click()
+    cy.contains('Learn React').should("not.exist");
+    // cy.contains('Learn React').should("exist");
 })
 

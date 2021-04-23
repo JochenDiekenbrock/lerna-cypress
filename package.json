@@ -5,6 +5,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "install": "lerna bootstrap"
+    "install": "lerna bootstrap",
+    "test": "lerna run test:cypress --stream"
   }
 }
