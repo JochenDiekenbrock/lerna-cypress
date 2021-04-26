@@ -7,5 +7,19 @@
   "scripts": {
     "install": "lerna bootstrap",
     "test": "lerna run test:cypress --stream"
+  },
+  "workspaces": {
+    "packages": [
+      "cli",
+      "packages/*",
+      "npm/*"
+    ],
+    "nohoist": [
+      "**/@ffmpeg-installer",
+      "**/@ffmpeg-installer/**",
+      "**/webpack-preprocessor/babel-loader",
+      "**/webpack-batteries-included-preprocessor/ts-loader",
+      "**/cypress-circleci-reporter"
+    ]
   }
 }
