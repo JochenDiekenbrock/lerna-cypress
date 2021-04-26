@@ -6,7 +6,7 @@
   },
   "scripts": {
     "install": "lerna bootstrap",
-    "test": "lerna run test:cypress --stream"
+    "test": "lerna exec yarn test:cypress --stream"
   },
   "workspaces": {
     "packages": [
