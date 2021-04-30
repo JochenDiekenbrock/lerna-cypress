@@ -30,6 +30,18 @@
       "react-app/jest"
     ]
   },
+  "fork-ts-checker": {
+    "async": false,
+    "typescript": false,
+    "eslint": {
+      "enabled": false
+    },
+    "logger": {
+      "infrastructure": "console",
+      "issues": "console",
+      "devServer": "console"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
