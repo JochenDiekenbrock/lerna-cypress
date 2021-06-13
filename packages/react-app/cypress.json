@@ -3,5 +3,6 @@
     "componentFolder": "src",
     "testFiles": "**/*spec.{js,jsx,ts,tsx}"
   },
+  "includeShadowDom": true,
   "video": false
 }

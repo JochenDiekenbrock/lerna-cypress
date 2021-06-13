@@ -19,9 +19,11 @@ class WebComponent extends HTMLElement {
 
     mount() {
         render(
-            <root.div>
-                <HelloWorld where="WebComponent" />
-            </root.div>,
+            <div>
+                {/*<root.div>*/}
+                    <HelloWorld where="WebComponent"/>
+                {/*</root.div>*/}
+            </div>,
             this
         );
     }
